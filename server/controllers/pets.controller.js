@@ -1,4 +1,4 @@
-const Pet = require('../models/Pets.model');
+const Pet = require('../models/pets.model');
 
 module.exports.helloWorld = (req,res)=>{
     res.json({msg:"hello world"})
